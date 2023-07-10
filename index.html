@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина товарів</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Корзина товарів</h1>
+    </header>
+
+    <div id="cart">
+        <div id="cart-items"></div>
+        <div id="cart-total">
+            <span id="total-label">Загальна сума: </span>
+            <span id="total-price">$0.00</span>
+        </div>
+        <button id="checkout-button">Оформити замовлення</button>
+    </div>
+
+    <div id="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Товар 1">
+            <h3>Товар 1</h3>
+            <p>Ціна: $10.00</p>
+            <button class="add-to-cart">Додати до кошика</button>
+        </div>
+
+        <div class="product">
+            <img src="product2.jpg" alt="Товар 2">
+            <h3>Товар 2</h3>
+            <p>Ціна: $20.00</p>
+            <button class="add-to-cart">Додати до кошика</button>
+        </div>
+
+        <div class="product">
+            <img src="product3.jpg" alt="Товар 3">
+            <h3>Товар 3</h3>
+            <p>Ціна: $30.00</p>
+            <button class="add-to-cart">Додати до кошика</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
